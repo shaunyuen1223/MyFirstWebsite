@@ -1,0 +1,86 @@
+body{
+	background-color: yellow;
+	font-family: 'Baloo Bhaijaan 2', cursive;
+}
+
+.dagon{
+	width: 400px;
+	height: 300px;
+	padding: 20px;
+	background-color: green;
+	margin: 25px;
+	border-radius: 20%;
+}
+
+#bigdiv{
+	display: flex;
+	text-align: center;
+	justify-content: space-around; /*To space the content in #bigdiv*/
+}
+
+#a1{
+	color: blue;
+}
+
+#b1{
+	color: red;
+}
+
+#c1{
+	color: brown;
+}
+
+#d1{
+	color: lime;
+}
+
+#e1{
+	color: teal;
+}
+
+li{
+	list-style-type: none;
+	font-size: 25px;
+}
+
+.bg{
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+
+.signin{
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	transform: translate(-150px);
+}
+
+.menu{
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	transform: translate(-80px);
+}
+
+button{
+	width: 200px;
+	height: 200px;
+	border-radius: 30%;
+	background-color: green;
+	font-family: 'Baloo Bhaijaan 2', cursive;
+	font-size: 30px;
+	position: absolute;
+	transform: translate(-1400px,10px);
+}
+
+#lists{
+	color: orange;
+	display: flex;
+	text-align: center;
+	justify-content: space-around;
+}
+
+#hihi{
+	text-align: center;
+}
